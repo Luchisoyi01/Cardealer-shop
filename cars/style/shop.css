@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&display=swap');
+body{
+    margin: 0;
+    padding-top: 65px;
+    font-family: 'poppins' sans-serif;
+}
+.head1{
+    display: flex;
+    border-color: silver;
+    background-color:#51566b; ;
+    border-style: solid;
+    position: fixed;
+    border-width: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;  
+}
+.wat{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+.wat img{
+    height: 62px;
+    width: 100px;
+}
+.home{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: black;
+}
+.car{
+   width: 100%;  
+}
+.car img{
+    width: 100%;
+    cursor: pointer;  
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 20px;
+}
+@media (max-width:750px ) {
+    .grid{
+        grid-template-columns: 1fr 1fr; 
+    }   
+}
+@media (min-width:1250px ) {
+    .grid{
+        grid-template-columns: 1fr 1fr 1fr 1fr; 
+    }   
+}
+.price{
+   color: rgb(96, 96, 96); 
+   font-size: 14px;
+   margin-top: 15px;
+   margin-bottom: 0;
+}
+.model{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;  
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(96, 96, 96);
+}

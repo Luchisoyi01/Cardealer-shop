@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&display=swap');
+body{
+    margin: 0;
+    padding-top: 65px;
+    font-family: 'poppins' sans-serif;
+}
+.head1{
+    display: flex;
+    border-color: silver;
+    background-color:#51566b; ;
+    border-style: solid;
+    position: fixed;
+    border-width: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+.wat{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;
+}
+.wat img{
+    height: 62px;
+    width: 100px;
+    
+}
+.home{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.out{
+    background: url('../photo/room.jpg');
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center; 
+    font-weight: bold;
+    color:#06564e ; 
+    font-size: 30px;
+}
+marquee{
+    width: 150px;
+    display: flex;
+    font-size: 30px;
+    color: black;
+    margin-top: 50px;
+}
+span{
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3px;
+} 
+a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color:black;
+}
+a:hover{
+    text-decoration: none;
+    color: #2ec4b6;
+    opacity: 0.6;
+}
+.about{
+    padding:4px;
+    font-family: 'poppins' sans-serif;
+    font-weight: 500;
+    height: 80px;
+    background-color: #2ec4b6;
+}

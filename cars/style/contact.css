@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&display=swap');
+body{
+    margin: 0;
+    padding-top: 65px;
+    font-family: 'poppins' sans-serif;
+}
+.head1{
+    display: flex;
+    border-color: silver;
+    background-color:#51566b; ;
+    border-style: solid;
+    position: fixed;
+    border-width: 1px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100; 
+}
+.wat{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: center;      
+}
+.wat img{
+    height: 62px;
+    width: 100px;
+}
+.home{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+}
+.contact{
+    background-image: url(../photo/R.jpg);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.contact h1{
+    margin: 0;
+    font-size: 70px;
+    color: #1d5852; 
+    font-weight: 800;   
+}
+.contact h3{
+    color: #1d5852;
+    font-size: 20px;
+    margin: 0;
+    padding: 15px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;   
+}
+.agents{
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #51566b;
+    border-color: silver;  
+}
+.agents p{
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 80%;
+    font-size: 20px;
+}
+.customer h1,
+.agents h1{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.agents marquee{
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 200px;
+    margin-top:10px ;
+}
+.customer{
+    width: 49.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #51566b;  
+}
+.customer p{
+    text-align: center;
+    padding: 20px; 
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.customer button{
+    background-color: #e3e6f3;
+    padding-top:10px ;
+    padding-bottom:10px;
+    border-width: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    color: black;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+button a{
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color:white;
+}
+button a:hover{
+    text-decoration: none;
+    color: #010e0c;
+    opacity: 0.6;
+}
+.payment{
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e6f3;
+    padding-left: 100px;
+    height: 300px;
+}
+.payment h1,
+.payment h2{
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-weight: 800;
+}
+.payment p{
+    color: rgb(96, 96, 96); 
+    font-size: 14px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+.name{
+    width: 300px;
+    height: 20px;
+    flex-direction: row;
+    padding-left: 10px;
+    border-width: 1px;
+}
+.accept{
+    padding: 12px 6px 12px 6px;
+    width: 80px;
+    background-color: #1d5852;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'poppins' sans-serif;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    background-color:#51566b ;    
+}
+.footer div{
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    justify-content: space-between;
+    padding-left: 83%;
+}
